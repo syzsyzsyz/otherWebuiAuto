@@ -1,0 +1,144 @@
+{
+  "uid" : "dec74054d8f4861d",
+  "name" : "test_login[datayaml3]",
+  "fullName" : "testcases.test_login.TestUIAUTO#test_login",
+  "historyId" : "37fb25b22ee0c525c394a79b03eefb21",
+  "time" : {
+    "start" : 1678461548425,
+    "stop" : 1678461555667,
+    "duration" : 7242
+  },
+  "description" : "\n        登录测试\n        :param datayaml: 加载login_data登录测试数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录测试\n    :param datayaml: 加载login_data登录测试数据\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'REPORTS_DIR' is not defined",
+  "statusTrace" : "self = <test_login.TestUIAUTO object at 0x0EB97E70>\ndatayaml = {'check': ['用户名或密码错误'], 'data': {'password': 'aa', 'username': 13511112222}, 'detail': '用户名或密码不匹配', 'id': 'test_login001.4', ...}\nsetup_teardown = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a7befe8694a4acc97fa5f7beb504b842\")>\nassert_utils = <utils.assert_utils.AssertUtils object at 0x0EC48A90>\n\n    @pytest.mark.parametrize(\"datayaml\", testData)\n    def test_login(self,datayaml,setup_teardown,assert_utils):\n        \"\"\"\n        登录测试\n        :param datayaml: 加载login_data登录测试数据\n        :return:\n        \"\"\"\n        driver = setup_teardown\n        url = test_url\n        logging.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(datayaml['id'],datayaml['detail']))\n        # 调用登录方法\n        self.user_login_verify(datayaml['data']['username'],datayaml['data']['password'],driver,url)\n        po = login(driver,test_url)\n        if datayaml['screenshot'] == 'user_pawd_success':\n            logging.info(\"检查点-> {0}\".format(po.user_login_success_hint()))\n            assert_utils.assert_equal(po.user_login_success_hint(), datayaml['check'][0], \"成功登录，返回实际结果是->: {0}\".format(po.user_login_success_hint()))\n            logging.info(\"成功登录，返回实际结果是->: {0}\".format(po.user_login_success_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot/{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'user_pawd_empty':\n            logging.info(\"检查点-> {0}\".format(po.user_error_hint()))\n            assert_utils.assert_equal(po.user_error_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'user_empty':\n            logging.info(\"检查点-> {0}\".format(po.user_error_hint()))\n            assert_utils.assert_equal(po.user_error_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'pawd_empty':\n            logging.info(\"检查点-> {0}\".format(po.pwd_error_hint()))\n            assert_utils.assert_equal(po.pwd_error_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.pwd_error_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.pwd_error_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'pawd_error':\n            logging.info(\"检查点-> {0}\".format(po.user_or_pwd_hint()))\n            assert_utils.assert_equal(po.user_or_pwd_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.user_or_pwd_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.user_or_pwd_hint()))\n>           driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\nE           NameError: name 'REPORTS_DIR' is not defined\n\ntest_login.py:63: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1678461523978,
+      "stop" : 1678461524087,
+      "duration" : 109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1678461524087,
+      "stop" : 1678461526019,
+      "duration" : 1932
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "assert_utils",
+    "time" : {
+      "start" : 1678461548425,
+      "stop" : 1678461548425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        登录测试\n        :param datayaml: 加载login_data登录测试数据\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'REPORTS_DIR' is not defined",
+    "statusTrace" : "self = <test_login.TestUIAUTO object at 0x0EB97E70>\ndatayaml = {'check': ['用户名或密码错误'], 'data': {'password': 'aa', 'username': 13511112222}, 'detail': '用户名或密码不匹配', 'id': 'test_login001.4', ...}\nsetup_teardown = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a7befe8694a4acc97fa5f7beb504b842\")>\nassert_utils = <utils.assert_utils.AssertUtils object at 0x0EC48A90>\n\n    @pytest.mark.parametrize(\"datayaml\", testData)\n    def test_login(self,datayaml,setup_teardown,assert_utils):\n        \"\"\"\n        登录测试\n        :param datayaml: 加载login_data登录测试数据\n        :return:\n        \"\"\"\n        driver = setup_teardown\n        url = test_url\n        logging.info(\"当前执行测试用例ID-> {0} ; 测试点-> {1}\".format(datayaml['id'],datayaml['detail']))\n        # 调用登录方法\n        self.user_login_verify(datayaml['data']['username'],datayaml['data']['password'],driver,url)\n        po = login(driver,test_url)\n        if datayaml['screenshot'] == 'user_pawd_success':\n            logging.info(\"检查点-> {0}\".format(po.user_login_success_hint()))\n            assert_utils.assert_equal(po.user_login_success_hint(), datayaml['check'][0], \"成功登录，返回实际结果是->: {0}\".format(po.user_login_success_hint()))\n            logging.info(\"成功登录，返回实际结果是->: {0}\".format(po.user_login_success_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot/{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'user_pawd_empty':\n            logging.info(\"检查点-> {0}\".format(po.user_error_hint()))\n            assert_utils.assert_equal(po.user_error_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'user_empty':\n            logging.info(\"检查点-> {0}\".format(po.user_error_hint()))\n            assert_utils.assert_equal(po.user_error_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.user_error_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'pawd_empty':\n            logging.info(\"检查点-> {0}\".format(po.pwd_error_hint()))\n            assert_utils.assert_equal(po.pwd_error_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.pwd_error_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.pwd_error_hint()))\n            driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\n        elif datayaml['screenshot'] == 'pawd_error':\n            logging.info(\"检查点-> {0}\".format(po.user_or_pwd_hint()))\n            assert_utils.assert_equal(po.user_or_pwd_hint(),datayaml['check'][0] , \"异常登录，返回实际结果是->: {0}\".format(po.user_or_pwd_hint()))\n            logging.info(\"异常登录，返回实际结果是->: {0}\".format(po.user_or_pwd_hint()))\n>           driver.get_screenshot_as_file(str(REPORTS_DIR) + \"/screenshot\\{0}.png\".format(datayaml['screenshot']))\nE           NameError: name 'REPORTS_DIR' is not defined\n\ntest_login.py:63: NameError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68e52749c42a4c36",
+      "name" : "log",
+      "source" : "68e52749c42a4c36.txt",
+      "type" : "text/plain",
+      "size" : 380821
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1678461562849,
+      "stop" : 1678461562974,
+      "duration" : 125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUIAUTO"
+  }, {
+    "name" : "host",
+    "value" : "瑛智的工作电脑"
+  }, {
+    "name" : "thread",
+    "value" : "76100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datayaml",
+    "value" : "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dec74054d8f4861d.json",
+  "parameterValues" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+}

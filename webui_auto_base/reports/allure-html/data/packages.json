@@ -1,0 +1,153 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_demo",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "51a74732d2cd7ebf",
+        "parentUid" : "356ffb4db279742dfbb01ddf594e658f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461823702,
+          "stop" : 1678461823702,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_re_json",
+        "uid" : "3a95f5b44f477455",
+        "parentUid" : "356ffb4db279742dfbb01ddf594e658f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461823780,
+          "stop" : 1678461823889,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_raise",
+        "uid" : "f2944c41925e84c2",
+        "parentUid" : "356ffb4db279742dfbb01ddf594e658f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461823780,
+          "stop" : 1678461823780,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "356ffb4db279742dfbb01ddf594e658f"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_login[datayaml0]",
+        "uid" : "5e908356b0024d25",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461825175,
+          "stop" : 1678461832798,
+          "duration" : 7623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml1]",
+        "uid" : "4f577e54070616ba",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461832798,
+          "stop" : 1678461840482,
+          "duration" : 7684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml2]",
+        "uid" : "bc2d997a03a7af03",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461840482,
+          "stop" : 1678461848093,
+          "duration" : 7611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml3]",
+        "uid" : "ccfb9b3d99aa14",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461848093,
+          "stop" : 1678461855612,
+          "duration" : 7519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "5ed9703365283354",
+        "parentUid" : "b3d5adb854320b63d55d1c2a744273d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461855612,
+          "stop" : 1678461863100,
+          "duration" : 7488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      } ],
+      "uid" : "b3d5adb854320b63d55d1c2a744273d6"
+    } ],
+    "uid" : "141fa05f02bf329144b0086cf92149a8"
+  } ]
+}

@@ -1,0 +1,5 @@
+[35mDEBUG   [0m root:assert_utils.py:54 断言 系统包含 hello
+[32mINFO    [0m root:test_demo.py:15 info message
+[35mDEBUG   [0m root:assert_utils.py:58 断言 日志输出包含 message
+[35mDEBUG   [0m root:assert_utils.py:65 断言 抛出异常 <class 'KeyError'>
+[35mDEBUG   [0m root:assert_utils.py:65 断言 抛出异常 <class 'Exception'>

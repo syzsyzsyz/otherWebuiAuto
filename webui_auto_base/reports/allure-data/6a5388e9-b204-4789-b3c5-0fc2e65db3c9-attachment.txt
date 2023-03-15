@@ -1,0 +1,3 @@
+[35mDEBUG   [0m root:assert_utils.py:39 断言 value: \d+ 匹配正则表达式value: 12
+[35mDEBUG   [0m root:assert_utils.py:43 断言 {'code': 0, 'data': [{'name': '张三'}]} 使用jsonpath $.data[0].name 提取结果包含 张三
+[35mDEBUG   [0m root:assert_utils.py:47 断言 {'code': 0, 'data': [{'name': '张三'}]}符合jsonschema {'type': 'object', 'properties': {'code': {'type': 'integer'}, 'data': {'type': 'array'}}}

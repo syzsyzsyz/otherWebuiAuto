@@ -1,0 +1,29 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 10 23:23:43 CST 2023","Fri Mar 10 23:23:43 CST 2023","109","testcases","test_demo","","","","test_re_json",""
+"passed","Fri Mar 10 23:24:00 CST 2023","Fri Mar 10 23:24:08 CST 2023","7611","testcases","test_login","TestUIAUTO","","","test_login[datayaml2]","
+        登录测试
+        :param datayaml: 加载login_data登录测试数据
+        :return:
+        "
+"passed","Fri Mar 10 23:24:15 CST 2023","Fri Mar 10 23:24:23 CST 2023","7488","testcases","test_login","TestUIAUTO","","","test_login[datayaml4]","
+        登录测试
+        :param datayaml: 加载login_data登录测试数据
+        :return:
+        "
+"broken","Fri Mar 10 23:23:43 CST 2023","Fri Mar 10 23:23:43 CST 2023","0","testcases","test_demo","","","","test_01",""
+"passed","Fri Mar 10 23:23:52 CST 2023","Fri Mar 10 23:24:00 CST 2023","7684","testcases","test_login","TestUIAUTO","","","test_login[datayaml1]","
+        登录测试
+        :param datayaml: 加载login_data登录测试数据
+        :return:
+        "
+"passed","Fri Mar 10 23:23:43 CST 2023","Fri Mar 10 23:23:43 CST 2023","0","testcases","test_demo","","","","test_raise",""
+"passed","Fri Mar 10 23:23:45 CST 2023","Fri Mar 10 23:23:52 CST 2023","7623","testcases","test_login","TestUIAUTO","","","test_login[datayaml0]","
+        登录测试
+        :param datayaml: 加载login_data登录测试数据
+        :return:
+        "
+"passed","Fri Mar 10 23:24:08 CST 2023","Fri Mar 10 23:24:15 CST 2023","7519","testcases","test_login","TestUIAUTO","","","test_login[datayaml3]","
+        登录测试
+        :param datayaml: 加载login_data登录测试数据
+        :return:
+        "

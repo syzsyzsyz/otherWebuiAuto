@@ -1,0 +1,53 @@
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-03-10 23:12:45 DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-03-10 23:12:45 DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-03-10 23:12:45 DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-03-10 23:12:46 DEBUG POST http://localhost:64532/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2023-03-10 23:12:46 DEBUG Starting new HTTP connection (1): localhost:64532
+2023-03-10 23:12:47 DEBUG http://localhost:64532 "POST /session HTTP/1.1" 200 854
+2023-03-10 23:12:47 DEBUG Finished Request
+2023-03-10 23:12:47 DEBUG POST http://localhost:64532/session/bbcaa153486dc9967f5436fee7cab8af/window/maximize {}
+2023-03-10 23:12:47 DEBUG http://localhost:64532 "POST /session/bbcaa153486dc9967f5436fee7cab8af/window/maximize HTTP/1.1" 200 51
+2023-03-10 23:12:47 DEBUG Finished Request
+2023-03-10 23:12:47 DEBUG POST http://localhost:64532/session/bbcaa153486dc9967f5436fee7cab8af/timeouts {"implicit": 10000}
+2023-03-10 23:12:47 DEBUG http://localhost:64532 "POST /session/bbcaa153486dc9967f5436fee7cab8af/timeouts HTTP/1.1" 200 14
+2023-03-10 23:12:47 DEBUG Finished Request
+2023-03-10 23:12:47 DEBUG DELETE http://localhost:64532/session/bbcaa153486dc9967f5436fee7cab8af/window {}
+2023-03-10 23:12:47 DEBUG http://localhost:64532 "DELETE /session/bbcaa153486dc9967f5436fee7cab8af/window HTTP/1.1" 200 12
+2023-03-10 23:12:47 DEBUG Finished Request

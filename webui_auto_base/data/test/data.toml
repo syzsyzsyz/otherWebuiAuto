@@ -1,0 +1,4 @@
+[zhangsan]
+ name="张三"
+ age="16"
+ hobbies=["足球","篮球","围棋"]

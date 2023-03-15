@@ -1,0 +1,81 @@
+[ {
+  "uid" : "5ed9703365283354",
+  "name" : "test_login[datayaml4]",
+  "time" : {
+    "start" : 1678461855612,
+    "stop" : 1678461863100,
+    "duration" : 7488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc2d997a03a7af03",
+  "name" : "test_login[datayaml2]",
+  "time" : {
+    "start" : 1678461840482,
+    "stop" : 1678461848093,
+    "duration" : 7611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a95f5b44f477455",
+  "name" : "test_re_json",
+  "time" : {
+    "start" : 1678461823780,
+    "stop" : 1678461823889,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2944c41925e84c2",
+  "name" : "test_raise",
+  "time" : {
+    "start" : 1678461823780,
+    "stop" : 1678461823780,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e908356b0024d25",
+  "name" : "test_login[datayaml0]",
+  "time" : {
+    "start" : 1678461825175,
+    "stop" : 1678461832798,
+    "duration" : 7623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccfb9b3d99aa14",
+  "name" : "test_login[datayaml3]",
+  "time" : {
+    "start" : 1678461848093,
+    "stop" : 1678461855612,
+    "duration" : 7519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f577e54070616ba",
+  "name" : "test_login[datayaml1]",
+  "time" : {
+    "start" : 1678461832798,
+    "stop" : 1678461840482,
+    "duration" : 7684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51a74732d2cd7ebf",
+  "name" : "test_01",
+  "time" : {
+    "start" : 1678461823702,
+    "stop" : 1678461823702,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

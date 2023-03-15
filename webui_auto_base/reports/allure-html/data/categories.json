@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: assert_equal() missing 1 required positional argument: 'str'",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "51a74732d2cd7ebf",
+        "parentUid" : "818d9a3420642c8342538798e06ce0e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461823702,
+          "stop" : 1678461823702,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "818d9a3420642c8342538798e06ce0e9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

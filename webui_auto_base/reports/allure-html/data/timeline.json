@@ -1,0 +1,683 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "瑛智的工作电脑",
+    "children" : [ {
+      "name" : "81176-MainThread",
+      "children" : [ {
+        "name" : "test_login[datayaml2]",
+        "uid" : "242bd7cfb65eadd5",
+        "parentUid" : "d920491a93c9a4063219809938715b4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460649186,
+          "stop" : 1678460649186,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml0]",
+        "uid" : "7f66547f54d66d30",
+        "parentUid" : "d920491a93c9a4063219809938715b4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460644387,
+          "stop" : 1678460644387,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml1]",
+        "uid" : "9dd688ee74437944",
+        "parentUid" : "d920491a93c9a4063219809938715b4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460649123,
+          "stop" : 1678460649123,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml3]",
+        "uid" : "255347002d8e9ba0",
+        "parentUid" : "d920491a93c9a4063219809938715b4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460649264,
+          "stop" : 1678460649264,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "c1c91d071eb2a2c1",
+        "parentUid" : "d920491a93c9a4063219809938715b4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460649327,
+          "stop" : 1678460649327,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      } ],
+      "uid" : "d920491a93c9a4063219809938715b4b"
+    }, {
+      "name" : "32356-MainThread",
+      "children" : [ {
+        "name" : "test_login[datayaml0]",
+        "uid" : "5e908356b0024d25",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461825175,
+          "stop" : 1678461832798,
+          "duration" : 7623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_raise",
+        "uid" : "f2944c41925e84c2",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461823780,
+          "stop" : 1678461823780,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_re_json",
+        "uid" : "3a95f5b44f477455",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461823780,
+          "stop" : 1678461823889,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01",
+        "uid" : "51a74732d2cd7ebf",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461823702,
+          "stop" : 1678461823702,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[datayaml2]",
+        "uid" : "bc2d997a03a7af03",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461840482,
+          "stop" : 1678461848093,
+          "duration" : 7611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml3]",
+        "uid" : "ccfb9b3d99aa14",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461848093,
+          "stop" : 1678461855612,
+          "duration" : 7519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      }, {
+        "name" : "test_login[datayaml1]",
+        "uid" : "4f577e54070616ba",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461832798,
+          "stop" : 1678461840482,
+          "duration" : 7684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "5ed9703365283354",
+        "parentUid" : "4bfc9a7c954c649d7a6c45ab137a4dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461855612,
+          "stop" : 1678461863100,
+          "duration" : 7488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      } ],
+      "uid" : "4bfc9a7c954c649d7a6c45ab137a4dff"
+    }, {
+      "name" : "77744-MainThread",
+      "children" : [ {
+        "name" : "test_login[datayaml2]",
+        "uid" : "41825e1aa8e0f5b1",
+        "parentUid" : "472029684d6dda9d217bbedb1b364674",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461167320,
+          "stop" : 1678461167320,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml0]",
+        "uid" : "a64102acd203137f",
+        "parentUid" : "472029684d6dda9d217bbedb1b364674",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461165786,
+          "stop" : 1678461165786,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml1]",
+        "uid" : "e605e528e24afe08",
+        "parentUid" : "472029684d6dda9d217bbedb1b364674",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461167298,
+          "stop" : 1678461167298,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "4228195c4476ecde",
+        "parentUid" : "472029684d6dda9d217bbedb1b364674",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461167379,
+          "stop" : 1678461167379,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      }, {
+        "name" : "test_login[datayaml3]",
+        "uid" : "f1c30de56dc9fc0e",
+        "parentUid" : "472029684d6dda9d217bbedb1b364674",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461167352,
+          "stop" : 1678461167352,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      } ],
+      "uid" : "472029684d6dda9d217bbedb1b364674"
+    }, {
+      "name" : "19208-MainThread",
+      "children" : [ {
+        "name" : "test_login[datayaml0]",
+        "uid" : "410c58efa0ea3905",
+        "parentUid" : "664d5d7f361c6b352435e8e3f0c844a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460784267,
+          "stop" : 1678460784267,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml2]",
+        "uid" : "2e9dec734d8abb4e",
+        "parentUid" : "664d5d7f361c6b352435e8e3f0c844a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460787740,
+          "stop" : 1678460787740,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml1]",
+        "uid" : "6f95494091fa987f",
+        "parentUid" : "664d5d7f361c6b352435e8e3f0c844a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460787677,
+          "stop" : 1678460787677,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml3]",
+        "uid" : "c56f7b4fa3b24c1d",
+        "parentUid" : "664d5d7f361c6b352435e8e3f0c844a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460787818,
+          "stop" : 1678460787818,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "2ad103058233c7e8",
+        "parentUid" : "664d5d7f361c6b352435e8e3f0c844a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678460787896,
+          "stop" : 1678460787896,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      } ],
+      "uid" : "664d5d7f361c6b352435e8e3f0c844a7"
+    }, {
+      "name" : "18992-MainThread",
+      "children" : [ {
+        "name" : "test_login[datayaml3]",
+        "uid" : "120b12af6ac62dff",
+        "parentUid" : "4f47c07884fc4ee48e0b1fc0bea52870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461096783,
+          "stop" : 1678461096783,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      }, {
+        "name" : "test_login[datayaml2]",
+        "uid" : "a90c83b0604882f0",
+        "parentUid" : "4f47c07884fc4ee48e0b1fc0bea52870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461096705,
+          "stop" : 1678461096705,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml1]",
+        "uid" : "c33b5f6a096a712",
+        "parentUid" : "4f47c07884fc4ee48e0b1fc0bea52870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461096642,
+          "stop" : 1678461096642,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml0]",
+        "uid" : "9b0108692ab9d5a",
+        "parentUid" : "4f47c07884fc4ee48e0b1fc0bea52870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461096377,
+          "stop" : 1678461096377,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "711f501f303080f9",
+        "parentUid" : "4f47c07884fc4ee48e0b1fc0bea52870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461096861,
+          "stop" : 1678461096861,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      } ],
+      "uid" : "4f47c07884fc4ee48e0b1fc0bea52870"
+    }, {
+      "name" : "76812-MainThread",
+      "children" : [ {
+        "name" : "test_login[datayaml1]",
+        "uid" : "6b5db4cd92b5dd78",
+        "parentUid" : "b1fe7feabce753289c9601ef2c57ec4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461663715,
+          "stop" : 1678461671461,
+          "duration" : 7746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml2]",
+        "uid" : "20f98ded78b95cf",
+        "parentUid" : "b1fe7feabce753289c9601ef2c57ec4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461671461,
+          "stop" : 1678461679155,
+          "duration" : 7694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml3]",
+        "uid" : "309da8bd8d63f89d",
+        "parentUid" : "b1fe7feabce753289c9601ef2c57ec4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461679155,
+          "stop" : 1678461686865,
+          "duration" : 7710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      }, {
+        "name" : "test_login[datayaml0]",
+        "uid" : "fa3d4aa39dcbdacc",
+        "parentUid" : "b1fe7feabce753289c9601ef2c57ec4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461656067,
+          "stop" : 1678461663715,
+          "duration" : 7648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "bdd5a859aa3c4515",
+        "parentUid" : "b1fe7feabce753289c9601ef2c57ec4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678461686865,
+          "stop" : 1678461694269,
+          "duration" : 7404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      } ],
+      "uid" : "b1fe7feabce753289c9601ef2c57ec4b"
+    }, {
+      "name" : "76100-MainThread",
+      "children" : [ {
+        "name" : "test_login[datayaml1]",
+        "uid" : "c043125dd53da08f",
+        "parentUid" : "d1de29ed93821020b9f3b4cfdddc3139",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461533721,
+          "stop" : 1678461541018,
+          "duration" : 7297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.2', 'detail': '用户名为空登录', 'screenshot': 'user_empty', 'data': {'username': '', 'password': 'aa'}, 'check': ['请输入账户名']}" ]
+      }, {
+        "name" : "test_login[datayaml3]",
+        "uid" : "dec74054d8f4861d",
+        "parentUid" : "d1de29ed93821020b9f3b4cfdddc3139",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461548425,
+          "stop" : 1678461555667,
+          "duration" : 7242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.4', 'detail': '用户名或密码不匹配', 'screenshot': 'pawd_error', 'data': {'username': 13511112222, 'password': 'aa'}, 'check': ['用户名或密码错误']}" ]
+      }, {
+        "name" : "test_login[datayaml4]",
+        "uid" : "79a06fa0eed27ad7",
+        "parentUid" : "d1de29ed93821020b9f3b4cfdddc3139",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461555686,
+          "stop" : 1678461562849,
+          "duration" : 7163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.5', 'detail': '用户名和密码正确', 'screenshot': 'user_pawd_success', 'data': {'username': 'syz001', 'password': 123456}, 'check': ['http://115.28.108.130/newecshop/user.php']}" ]
+      }, {
+        "name" : "test_login[datayaml2]",
+        "uid" : "ef116ea4359f0f63",
+        "parentUid" : "d1de29ed93821020b9f3b4cfdddc3139",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461541033,
+          "stop" : 1678461548394,
+          "duration" : 7361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.3', 'detail': '密码为空登录', 'screenshot': 'pawd_empty', 'data': {'username': 13511112222, 'password': ''}, 'check': ['请输入密码']}" ]
+      }, {
+        "name" : "test_login[datayaml0]",
+        "uid" : "e0161b5de64237ef",
+        "parentUid" : "d1de29ed93821020b9f3b4cfdddc3139",
+        "status" : "broken",
+        "time" : {
+          "start" : 1678461526034,
+          "stop" : 1678461533628,
+          "duration" : 7594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'id': 'test_login001.1', 'detail': '用户名和密码为空登录', 'screenshot': 'user_pawd_empty', 'data': {'username': '', 'password': ''}, 'check': ['请输入账户名']}" ]
+      } ],
+      "uid" : "d1de29ed93821020b9f3b4cfdddc3139"
+    } ],
+    "uid" : "8df50ed954ee87b8f3dfbf6d108d8a87"
+  } ]
+}

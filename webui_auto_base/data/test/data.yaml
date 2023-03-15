@@ -1,0 +1,7 @@
+zhangsan:
+ name: 张三
+ age: 16
+ hobbies:
+  - 篮球
+  - 足球
+  - 围棋

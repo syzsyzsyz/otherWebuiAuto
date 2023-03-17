@@ -87,7 +87,7 @@ class login(Page):
     user_error_hint_loc = (testData.get_CheckFindType(0),testData.get_CheckElementinfo(0))
     pwd_error_hint_loc = (testData.get_CheckFindType(1), testData.get_CheckElementinfo(1))
     user_or_pwd_error_loc = (testData.get_CheckFindType(2),testData.get_CheckElementinfo(2))
-    user_login_success_loc = (testData.get_CheckFindType(3).testData.get_CheckElementinfo(3))
+    user_login_success_loc = (testData.get_CheckFindType(3),testData.get_CheckElementinfo(3))
 
     #  用户名错误提示
     def user_error_hint(self):

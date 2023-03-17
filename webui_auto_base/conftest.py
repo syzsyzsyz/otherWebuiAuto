@@ -30,7 +30,7 @@ class BASE_DIR():
 
 @pytest.fixture(scope="session")
 def setup_teardown():
-	driver = webdriver.Chrome(service=ChromeService)
+	driver = webdriver.Chrome("C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe")
 	driver.maximize_window()
 	driver.implicitly_wait(10)
 	yield driver

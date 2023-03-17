@@ -46,7 +46,7 @@ class TestUIAUTO:
             assert_utils.assert_equal(po.user_error_hint(),datayaml['check'][0] , "异常登录，返回实际结果是->: {0}".format(po.user_error_hint()))
             logging.info("异常登录，返回实际结果是->: {0}".format(po.user_error_hint()))
             driver.get_screenshot_as_file(str(BASE_DIR.REPORTS_DIR) + "/screenshot\{0}.png".format(datayaml['screenshot']))
-            driver.get_screenshot_as_file(f"{str(BASE_DIR.REPORTS_DIR)}/screenshot/{datayaml['screenshot']}.png ")
+            driver.get_screenshot_as_file(f"{str(BASE_DIR.REPORTS_DIR)}/screenshot/{datayaml['screenshot']}.png")
         elif datayaml['screenshot'] == 'user_empty':
             logging.info("检查点-> {0}".format(po.user_error_hint()))
             assert_utils.assert_equal(po.user_error_hint(),datayaml['check'][0] , "异常登录，返回实际结果是->: {0}".format(po.user_error_hint()))
